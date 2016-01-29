@@ -1,0 +1,141 @@
+@charset="utf-8";
+
+*{margin:0;
+padding:0;
+font-family:Calibri;
+}
+
+body{
+background:white;
+margin:0;
+padding:0;
+height:100vh;
+width:100vw;
+}
+
+nav{
+background:black;
+height:40px;
+black-shadow: 2px 2px 5px gray;
+margin:0;
+padding:0;
+width:100%;
+position:fixed;
+z-index:10;
+}
+
+nav ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+nav ul li{
+float:left;
+width:;
+position:relative;
+height:40px;
+width:140px;
+}
+nav ul li a{
+text-decoration:none;
+text-align:center;
+line-height:40px;
+display:block;
+height:40px;
+color:white;
+transition:all 0.3s;
+text-transform:uppercase;
+}
+
+nav ul li ul{
+display:none;
+position:absolute;
+left:0;
+background:black;
+top:40px;
+z-index:7;
+}
+
+nav ul li:hover ul{
+display:block;
+border-radius:5px;
+}
+
+nav ul li a:hover{
+background:rgba(0,0,255,0.6);
+}
+
+nav ul li:hover a{
+border-radius:5px;
+}
+
+nav ul li a:active{
+background:white;
+}
+
+section{
+height:100vh;
+width:100vw;
+}
+
+#stexto{
+background:url("dilmaeF.png") fixed no-repeat center;
+}
+
+#texto p:after{
+content:" Revisado pelo assistente da Dilmãe";
+color:red;
+}
+
+#texto p:first-letter{
+font-size:25px;
+}
+
+#scroll{
+
+width:100%;
+height:50vh;
+overflow:auto;
+}
+
+#texto{
+width:35%;
+padding:100px 30px 0 30px;
+}
+
+#svideo{
+background:url("dilmaeFFF.png") fixed no-repeat center;
+position:relative;
+}
+
+#idvideo{
+position:absolute;
+margin-left:60%;
+margin-top:20%;
+}
+
+#sultimo{
+background:url("lulapai3.png") fixed no-repeat center;
+position:relative;
+}
+
+#idultimo{
+width:20%;
+padding:100px 30px 0px 30px;
+}
+
+#idultimo p:after{
+content:" Revisado pelo Presidente do PT";
+color:red;
+}
+
+#idultimo p:first-letter{
+font-size:25px;
+}
+
+#ultimoscroll{
+width:100%;
+height:50vh;
+overflow:auto;
+}
